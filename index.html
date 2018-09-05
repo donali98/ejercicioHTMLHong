@@ -1,23 +1,72 @@
+<!--HTML5-->
 <!DOCTYPE html>
+<!--Lenguaje del contenido-->
 <html lang="en">
+<!--Encabezado de la pagina-->    
 <head>
+    <!--Aportando la meta-informacion del documento-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HONG</title>
+    <title>HTML5 Website Showcase</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>Design/Dev</li>
-                <li>Tecnology</li>
-                <li>Inspiration</li>
-                <li>Social Commerce</li>
-                <li>All</li>
-                <li>Deals</li>
-            </ul>
-        </nav>
+<!--Header por los links de navegacion y el search-->
+<header>
+    <!--Contenedor generico para contener el navbar-->
+        <div class="site-navbar">
+            <!--Lista ordenada-->
+            <ol>
+                <li>
+                    <a href="#">DESIGN/DEV</a>
+                    <a href="#">TECHNOLOGY</a>
+                    <a href="#">INSPIRATION</a>
+                    <a href="#">SOCIAL COMMERCE</a>
+                    <a href="#">ALL</a>
+                    <a href="#">DEALS</a>
+                </li>
+            </ol>
+            <!--Search bar-->
+            <form action="#" method="post">
+                <label for="search">Search</label>
+                <input type="search" name="search" placeholder="Example: CSS Tips">
+            </form>
+        </div>
     </header>
+<!--Cuerpo de la pagina-->    
+<body>
+    <!--Entrada de blog-->
+    <article>
+        <!--Titulo principal-->
+        <h1>HTML5 Website Showcase: 48 Potential Flash-Killing Demos</h1>
+        <!--Parrafo-->
+        <p>
+            So you’ve heard all rumors about HTML5 would take over Adobe Flash. While <br> <!--Salto de linea-->
+            most web community argues that it’s possible or not, you must be wandering <br> <!--Salto de linea-->
+            what makes HTML5 so powerful that even giant company Apple wants to use it to <br> <!--Salto de linea-->
+            replace Flash.
+        </p>
+        <br> <!--Salto de linea-->
+        <p>
+            That’s why this post exists, we’re not going to talk about what HTML5 can do, but <br> <!--Salto de linea-->
+            show live demos of magical things that HTML5 can achieve with other language <br> <!--Salto de linea-->
+            like JavaScript, so get ready to be inspired.
+        </p>
+
+        <!--Boton que no hace ninguna peticion http, simplemente muestra el contenido completo
+            Por lo que no considere necesario ponerlo dentro de un elemento form-->
+        <input type="button">Show Comments
+    </article>
+    
+    <!--Footer de la pagina-->
+    <footer>
+        <!--Parrafo-->
+        <p align="center">Hongkiat.com (HKDC). All Rights Reserved. 2018</p>
+        <!--Parrafo-->
+        <p align="center">
+            Reproduction of materials found on this site, in any form, without explicit permission is prohibited.
+            <a href="#">Publishing policy</a>
+            <a href="#">Privacy Policy</a> 
+        </p>
+    </footer>
 </body>
 </html>
